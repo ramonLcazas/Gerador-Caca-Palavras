@@ -633,7 +633,7 @@ class InterfaceApp:
             'button_bg': '#4CAF50',
             'button_fg': 'white',
             'frame_bg': '#f0f0f0',
-            'label_info': '#FF0000',
+            'label_info': 'gray',
             'label_link': 'blue',
             'border': '#d0d0d0'
         }
@@ -646,7 +646,7 @@ class InterfaceApp:
             'button_bg': '#45a049',
             'button_fg': 'white',
             'frame_bg': '#2b2b2b',
-            'label_info': "#FF0000",
+            'label_info': '#888888',
             'label_link': '#6ba3ff',
             'border': '#3c3c3c'
         }
@@ -675,7 +675,7 @@ class InterfaceApp:
                                        relief=tk.FLAT,
                                        highlightthickness=0,
                                        bd=0)
-        self.btn_tema.place(x=480, y=10)
+        self.btn_tema.place(x=470, y=10)
         
         # Armazenar referência ao frame_topo para aplicar tema
         self.frame_topo = frame_topo
